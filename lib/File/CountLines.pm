@@ -2,7 +2,7 @@ package File::CountLines;
 use strict;
 use warnings;
 
-our $VERSION = '0.0.2';
+our $VERSION = '0.0.3';
 our @EXPORT_OK = qw(count_lines);
 
 use Exporter 5.057;
@@ -185,7 +185,7 @@ If there's demand for, I can implement that though.
 
 You can add your own EOL styles by adding them to the
 C<%File::CountLines::StyleMap> hash, with the name of the style as hash key
-and the seperator as the value.
+and the separator as the value.
 
 =head1 AUTHOR
 
@@ -201,9 +201,9 @@ Domain.
 
 =head1 DEVELOPMENT
 
-You can obtain the latest development version via subversion:
+You can obtain the latest development version from L<http://github.com/moritz/File-CountLines>:
 
-    svn co https://faui2k3.org/svn/moritz/cpan/File-CountLines/
+    git clone git://github.com/moritz/File-CountLines.git
 
 =cut
 

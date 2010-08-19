@@ -80,7 +80,7 @@ Character Encodings
 Extending
     You can add your own EOL styles by adding them to the
     %File::CountLines::StyleMap hash, with the name of the style as hash key
-    and the seperator as the value.
+    and the separator as the value.
 
 AUTHOR
     Moritz Lenz <http://perlgeek.de>, <mailto:moritz@faui2k3.org>
@@ -93,7 +93,8 @@ COPYRIGHT AND LICENSE
     Public Domain.
 
 DEVELOPMENT
-    You can obtain the latest development version via subversion:
+    You can obtain the latest development version from
+    <http://github.com/moritz/File-CountLines>:
 
-        svn co https://faui2k3.org/svn/moritz/cpan/File-CountLines/
+        git clone git://github.com/moritz/File-CountLines.git
 
